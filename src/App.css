@@ -1,5 +1,7 @@
+
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient(90deg, rgba(142,27,100,0.9724264705882353) 0%, rgba(255,112,228,1) 50%, rgba(142,27,100,1) 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,10 +24,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {

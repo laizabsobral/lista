@@ -1,22 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'; //importante o bootstrap para questão de estilização
+import AdicionarProduto from './Components/AddProduto';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1> Listagem de livros Lidos em 2022</h1>
+        <AdicionarProduto> </AdicionarProduto>
       </header>
     </div>
   );

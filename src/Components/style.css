@@ -1,0 +1,68 @@
+
+/* FORMULARIO */
+.campoDigitar{
+    border: 1px solid rgb(92, 8, 92);
+}
+
+.button_adicionar{
+    background-color: #198754;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.button_adicionar:hover{
+    background-color: #0d4128;
+    border: 1px solid white;
+}
+
+.button_lista{
+   
+    background-color: #bd951e;
+    border-radius: 10px;
+    margin-left: 28px;
+    border: 1px solid white;
+}
+
+.button_lista:hover{
+    background-color: #6e5815;
+    border: 1px solid white;
+}
+/* FORMULARIO */
+
+/* modal */
+.titulo_modal{
+    font-size: 24px;
+    color: #5a075a;
+    padding-left: 72px;
+}
+
+.quadro_titulo{
+    background-color: #c07ffb !important;
+    border-color: white;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>*{
+    --bs-table-accent-bg:  #573974 !important;
+    border-color: white;
+    width: 88px;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.5rem 0.5rem;
+    background-color: #573974;
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+    color: white;
+}
+
+.quadro_remover{
+    background-color: #ff3737 !important;
+    border-color: white;
+}
+
+.button_fechar{
+    background-color: rgb(224, 43, 43);
+    border-radius: 6px;
+}
+
+/* modal */
